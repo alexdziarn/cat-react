@@ -1,8 +1,13 @@
 # How to Start
 
-### `npm install`
-run developement server at localhost:3000 with:
-### `npm run start`
+Install dependencies ```npm install```.
+Run developement server at localhost:3000 with:
+```npm run start```.
+If you encounter an error please delete package-lock.json and node_modules and restart process. 
+If error invovles eslint, please run
+```npm uninstall eslint eslint-plugin-react```
+```npm install eslint eslint-plugin-react```
+restart ide, and try again.
 
 
 ## Available Scripts
